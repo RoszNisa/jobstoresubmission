@@ -112,11 +112,13 @@
     <!--  Trending Job -->
     <div class="container-box">
       <h2 style="margin-top: 100px;padding-bottom: 5%;"><b>Trending Jobs</b></h2>
-        <swiper :modules="modules" :slides-per-view="3" :slides-per-group="3" :space-between="50" :navigation="false" :pagination="{ clickable: true, dynamicBullets: true }"
-    :scrollbar="{ draggable: false, el: false }" :autoplay="{ delay: 2000, disableOnInteraction: false }" @swiper="onSwiper" @slideChange="onSlideChange">
+      <swiper :modules="modules" :slides-per-view="3" :slides-per-group="3" :space-between="50" :navigation="false"
+        :pagination="{ clickable: true, dynamicBullets: true }" :scrollbar="{ draggable: false, el: false }"
+        :autoplay="{ delay: 3000, disableOnInteraction: false }" @swiper="onSwiper" @slideChange="onSlideChange">
         <swiper-slide>
           <!-- 1st pagination -->
-          <div class="slide-container"  on-click="https://www.jobstore.com/my/post/3100315/head-of-investments-senior-manage">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3100315/head-of-investments-senior-manager'">
             <small>KUALA LUMPUR</small><br>
             <b>Head of Investments (Senior Manager)</b><br>
             <a href="https://www.jobstore.com/my/post/3100315/head-of-investments-senior-manager">MYR16,000-MYR20,000
@@ -128,7 +130,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container" onclick="ttps://www.jobstore.com/my/post/3319567/service-apartments-manager">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3319567/service-apartments-manager'">
             <small>KUALA LUMPUR</small><br>
             <b>Service Apartments Manager</b><br>
             <a href="https://www.jobstore.com/my/post/3319567/service-apartments-manager">MYR12,000-MYR 15,000
@@ -140,7 +143,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3100315/head-of-investments-senior-manager'">
             <small>KUALA LUMPUR</small><br>
             <b>Backend Developer</b><br>
             <a
@@ -153,7 +157,8 @@
         </swiper-slide>
         <!-- 2nd pagination -->
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3474083/financial-advisor-consultant'">
             <small>GEORGE TOWN</small><br>
             <b>Financial Advisor /Consultant</b><br>
             <a href="https://www.jobstore.com/my/post/3474083/financial-advisor-consultant">MYR9,000-MYR15,000
@@ -167,7 +172,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3305528/assistant-manager-group-finance'">
             <small>KUALA LUMPUR</small><br>
             <b>Assistant Manager - Group Finance</b><br>
             <a
@@ -179,7 +185,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3076387/operation-manager'">
             <small>KUALA LUMPUR</small><br>
             <b>Operation Manager</b><br>
             <a href="https://www.jobstore.com/my/post/3076387/operation-manager">MYR8,000-MYR8,900(Monthly)</a><br>
@@ -193,7 +200,8 @@
         </swiper-slide>
         <!-- 3rd pagination -->
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/2989475/accountant'">
             <small>JASIN</small><br>
             <b>Accountant</b><br>
             <a href="https://www.jobstore.com/my/post/2989475/accountant">MYR8,000-MYR10,000(Monthly)</a><br>
@@ -204,7 +212,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/2989475/accountant'">
             <small>KUALA LUMPUR</small><br>
             <b>Membership Strategic Partnerships Manager</b><br>
             <a href="https://www.jobstore.com/my/post/2989475/accountant">MYR8,000-MYR10,000(Monthly)</a><br>
@@ -215,7 +224,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3133140/srmanagermanager-sales-marketing'">
             <small>Telok Panglima Garang</small><br>
             <b>Sr.Manager/Manager Sales &amp; Marketing</b><br>
             <a
@@ -228,7 +238,8 @@
         </swiper-slide>
         <!-- 4th pagination -->
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3354836/finance-manager'">
             <small>BUKIT MERTAJAM</small><br>
             <b>Finance Manager</b><br>
             <a href="https://www.jobstore.com/my/post/3354836/finance-manager"
@@ -240,7 +251,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3354836/finance-manager'">
             <small>PORT KLANG</small><br>
             <b>Sales Manager</b><br>
             <a href="https://www.jobstore.com/my/post/3354836/finance-manager">MYR8,000-MYR10,000(Monthly)</a><br>
@@ -251,7 +263,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3100848/ecommerce-branding-manager'">
             <small>PETALING JAYA</small><br>
             <b>Ecommerce Branding Manager</b><br>
             <a
@@ -264,7 +277,8 @@
         </swiper-slide>
         <!-- 5th pagination -->
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3095801/jj1623kb-project-manager'">
             <small>KUALA LUMPUR</small><br>
             <b>JJ1623KB Project Manager</b><br>
             <a
@@ -276,7 +290,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3095801/jj1623kb-project-manager'">
             <small>PUCHONG</small><br>
             <b>Sales Consultant</b><br>
             <a
@@ -288,7 +303,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="slide-container">
+          <div class="slide-container"
+            onclick="window.location.href='https://www.jobstore.com/my/post/3438794/manager-fixed-income'">
             <small>KUALA LUMPUR</small><br>
             <b>Manager, Fixed Income</b><br>
             <a href="https://www.jobstore.com/my/post/3438794/manager-fixed-income">MYR8,000-MYR11,000(Monthly)</a><br>
@@ -298,8 +314,6 @@
             </div>
           </div>
         </swiper-slide>
-        <!-- <swiper-slide v-for="index in 6" :key="index">Slide {{ index }}</swiper-slide> -->
-        
       </swiper>
       <div style="margin-top: 5%;">
         <span>
@@ -354,8 +368,8 @@
 
     </div>
 
-    <!--  Bottom  -->
-    <div style="width: 100%; height:390px;background-color: #f8f8f8; margin-top: 100px;">
+    <!--  Detail company -->
+    <div style="width: 100%; height:415px;background-color: #f8f8f8; margin-top: 100px;">
       <div class="container-box">
         <img src="https://asset.jobstore.com/images/branding/jobstore_logo_blue.png"
           style="margin-top: 50px; width: 23%;">
@@ -385,10 +399,29 @@
           <div class="col-sm-4">
             <b style="color: #0704e1">CONNECT WITH US</b>
             <div style="color: black;">
-              <a href="https://www.facebook.com/jobstoredotcom?_rdr=p">Facebook</a> <br>
-              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fjobstoredotcom">Twitter</a> <br>
-              <a href="https://www.linkedin.com/company/jobstore-com">LinkedIn</a> <br>
-              <a href="https://www.instagram.com/jobstoredotcom/">Instagram</a> <br>
+              <a href="https://www.facebook.com/jobstoredotcom?_rdr=p"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30" width="30px" height="30px">
+                  <path
+                    d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z" />
+                </svg>Facebook</a> <br>
+
+              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fjobstoredotcom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px">
+                  <path
+                    d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z" />
+                </svg>Twitter</a> <br>
+
+              <a href="https://www.linkedin.com/company/jobstore-com">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px">
+                  <path
+                    d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z" />
+                </svg>LinkedIn</a><br>
+              <a href="https://www.instagram.com/jobstoredotcom/"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30" width="30px" height="30px">
+                  <path
+                    d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z" />
+                </svg>
+                Instagram</a> <br>
               <a href="https://www.jobstore.com/my#">Call us at +603 2716 5199</a>
               <br> <a href="https://www.jobstore.com/my/support">Send us a message</a>
             </div>
@@ -436,20 +469,14 @@
 
 <script>
 
-// import { Swiper, SwiperSlide, Pagination } from 'swiper/vue';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-  // import Swiper core and required modules
-  import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
-
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/css';
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-  import 'swiper/css/scrollbar';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 export default {
@@ -471,8 +498,8 @@ export default {
     };
     return {
       onSwiper,
-        onSlideChange,
-        modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay ],
+      onSlideChange,
+      modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
     };
   },
 };
@@ -496,12 +523,6 @@ export default {
 .item1 {
   grid-row: 1 / 3;
 }
-
-/* .div-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)), url('https://assets.jobstore.com/images/index/index_left_2304041040.jpg');
-  height: 100vh;
-  width: 100%;
-} */
 
 .text-orange-color {
   color: #ffa800;
@@ -629,8 +650,8 @@ a:hover {
 .slide-container a {
   font-size: small;
 }
-.container-box slide-container:hover
-{
+
+.container-box slide-container:hover {
   background-color: white;
   padding: 20px;
   box-shadow: 10px 10px 15px 10px #efefefc2;
